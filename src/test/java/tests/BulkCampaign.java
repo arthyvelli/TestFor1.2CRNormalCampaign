@@ -46,7 +46,9 @@ public class BulkCampaign extends TestBase{
 		System.out.println("Launched driver Successufflu");
 		
 		campaign = new CampaignPage(driver());
-		campaign.getSenderId(data.get("senderid1"),data.get("senderid2"),data.get("senderid3"),data.get("senderid4"),data.get("senderid5"));
+
+		tbcampaign.getSenderId(data.get("senderid1"),data.get("senderid2"));
+
 		campaign.Bulk_campaign1(data.get("usercount"));
 		
 		

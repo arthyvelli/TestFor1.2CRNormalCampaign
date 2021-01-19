@@ -37,13 +37,12 @@ public class CampaignPage extends BasePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-    public void getSenderId(String senderid1,String senderid2,String senderid3,String senderid4,String senderid5) {
-    	
+
+    public void getSenderId(String senderid1,String senderid2) { 	
     	Senderid[0]=senderid1;
     	Senderid[1]=senderid2;
-    	Senderid[2]=senderid3;
-    	Senderid[3]=senderid4;
-    	Senderid[4]=senderid5;
+
+
     	
 
     	
@@ -85,7 +84,11 @@ public class CampaignPage extends BasePage {
 		//int Campcount=excel.getnum(0, i, 2);
 		System.out.println("No.of campaigns ="+userscount);
 
-		String myTime = "08:00";
+
+		String myTime = "23:00";
+=======
+	
+
 		/*SimpleDateFormat df = new SimpleDateFormat("HH:mm");
 
 		Date d = df.parse(myTime); 
