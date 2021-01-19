@@ -1,0 +1,9 @@
+tests\BulkCampaign.class
+pages\BasePage.class
+pages\CampaignDuplicatePage.class
+pages\LoginPage.class
+pages\CampaignElements.class
+pages\CampaignPage.class
+tests\Login_TC.class
+pages\LogoutPage.class
+tests\TestBase.class
