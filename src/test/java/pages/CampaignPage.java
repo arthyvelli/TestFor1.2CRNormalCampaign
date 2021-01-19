@@ -41,7 +41,6 @@ public class CampaignPage extends BasePage {
     public void getSenderId(String senderid1,String senderid2) { 	
     	Senderid[0]=senderid1;
     	Senderid[1]=senderid2;
-    	
     }
 	public void Bulk_campaign1(String UserCount) throws IOException, InterruptedException, ParseException, java.text.ParseException{
 
