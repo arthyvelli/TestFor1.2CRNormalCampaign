@@ -47,7 +47,7 @@ public class BulkCampaign extends TestBase{
 		
 		campaign = new CampaignPage(driver());
 
-		tbcampaign.getSenderId(data.get("senderid1"),data.get("senderid2"));
+		campaign.getSenderId(data.get("senderid1"),data.get("senderid2"));
 
 		campaign.Bulk_campaign1(data.get("usercount"));
 		
