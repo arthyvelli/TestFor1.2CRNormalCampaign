@@ -80,7 +80,7 @@ public class CampaignPage extends BasePage {
 		System.out.println("No.of campaigns ="+userscount);
 
 
-		String myTime = "12:00";
+		String myTime = "18:00";
 
 	
 
