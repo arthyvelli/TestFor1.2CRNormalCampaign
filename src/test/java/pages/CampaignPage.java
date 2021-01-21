@@ -46,26 +46,9 @@ public class CampaignPage extends BasePage {
 
 		Thread.sleep(1000);
 
-		//driver.get("http://dash.vinmail.io/autologin");
-		//ExcelConfig excel=new ExcelConfig("C:\\Users\\Bhoopathi S K V\\eclipse-workspace\\BulkSend_Campaign\\Excel1.xlsx");
-
-		//int userscount=excel.usercount(0);
 		int userscount=Integer.parseInt(UserCount);
 
-		//create a loop overall the rows of excel file to read it.
-		//for (int i=1;i<=userscount;i++)
-		//{
-		//Thread.sleep(1000);
-
-		//Enter username and password
-		//BasePage.waitForElement(driver,Loginelements.Email,25);
-
-		//BasePage.EnterText(driver,Loginelements.Email,excel.getData(0, i, 0));
-		//BasePage.EnterText(driver,Loginelements.password, excel.getData(0, i, 1));
-		//BasePage.ClickElement(driver,Loginelements.LoginButton);	
-		//System.out.println("client"+excel.getData(0, i, 0));
-
-
+		
 		//redirect to Campaign list page
 		BasePage.waitForElement(driver,Dashbrd,50);
 
@@ -83,7 +66,6 @@ public class CampaignPage extends BasePage {
 		String myTime = "18:00";
 
 	
-
 		/*SimpleDateFormat df = new SimpleDateFormat("HH:mm");
 
 		Date d = df.parse(myTime); 
